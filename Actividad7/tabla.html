@@ -1,0 +1,25 @@
+<!-- Autor: Carolina Godinez Santana 5°PM
+    Este programa tiene como funcion crear una tabla segun las 
+    columnas que solicite el usuario -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Actividad7/tablas.css">
+        <title>creando una tabla</title>
+    </head>
+    <body>
+        <h5>Godinez Santana Carolina 5°PM</h5>
+        <h1>Generando tabla</h1>
+        <form action="../Actividad7/generando.php" method="get">
+            <label for="renglon" class="label">Columnas:</label>
+            <input type="number" name="columna" id="columna" min='0' max='120'>
+            <label for="columna" class="label">Renglon:</label>
+            <input type="number" name="renglon" id="renglon" min='0' max='120'>
+            <br><br>
+            <input type="submit" class="submit" value="Generar">
+        </form>
+    </body>
+    </html>
